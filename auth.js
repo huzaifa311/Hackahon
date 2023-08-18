@@ -41,7 +41,7 @@ async function SignUpButton(e) {
     console.log("userDB", userDB);
     console.log("userObj", userObj);
 
-    location.href = "/admin.html";
+    window.location.replace("/admin.html");
   } catch (error) {
     console.log("error", error.message);
   } finally {
@@ -61,7 +61,7 @@ async function login(e) {
     console.log("email", email, "password", password);
     const userLogin = await signInWithEmailAndPassword(auth, email, password);
     console.log(userLogin);
-    location.href = "/admin.html";
+    window.location.replace("/admin.html");
   } catch (error) {
     console.error("error", error.message);
   } finally {
