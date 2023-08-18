@@ -1,0 +1,29 @@
+Hosting firebase
+step 1:
+create project on firebase
+
+step 2
+check nodejs install your system or not
+if nodejs not install your system
+install nodejs
+https://nodejs.org/en
+
+
+step3:
+npm i --g firebase-tools  (ek dafa hoga yeh step bus)
+
+
+step4
+firebase login  (ek dafa hoga yeh step bhi bus)
+
+
+
+step 5
+firebase init
+
+
+step6
+apna code sub public folder main rekh dehna 
+
+step7
+firebase deploy
